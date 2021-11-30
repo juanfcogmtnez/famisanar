@@ -1,0 +1,109 @@
+﻿,region,centros
+0,BOGOTA,"                             nombre  ... marcar
+0                 OFICINA PRINCIPAL  ...     SI
+1   CENTRO COMERCIAL NUESTRO BOGOTA  ...     SI
+2                          CALLE 63  ...     SI
+3                     SUBA ACUARELA  ...     SI
+4                        SEDE NORTE  ...     SI
+5                          CALLE 50  ...     SI
+6                        AVENIDA 68  ...     SI
+7                       SAN ANTONIO  ...     SI
+8                           KENEDDY  ...     SI
+9                            SOACHA  ...     SI
+10                    GRAN ESTACIÓN  ...     SI
+11                        CARRERA 7  ...     SI
+
+[12 rows x 10 columns]"
+1,CUNDINAMARCA,"        nombre  ... marcar
+12   ZIPAQUIRÁ  ...     SI
+13        CHÍA  ...     SI
+14       UBATÉ  ...     SI
+15       PACHO  ...     SI
+16  FACATATIVÁ  ...     SI
+17      MADRID  ...     SI
+18     VILLETA  ...     SI
+19      FUNZA   ...     SI
+20     LA MESA  ...     SI
+21    GIRARDOT  ...     SI
+22  FUSAGASUGÁ  ...     SI
+23    EL ROSAL  ...     SI
+
+[12 rows x 10 columns]"
+2,BOYACÁ,"            nombre  ... marcar
+24           TUNJA  ...     SI
+25         GARAGOA  ...     SI
+26         DUITAMA  ...     NO
+27           PAIPA  ...     NO
+28    CHIQUINQUIRÁ  ...     NO
+29        SOGAMOSO  ...     NO
+30   PUERTO BOYACÁ  ...     NO
+31       MONIQUIRÁ  ...     NO
+32          SAMACÁ  ...     NO
+33  VILLA DE LEYVA  ...     NO
+
+[10 rows x 10 columns]"
+3,TOLIMA,"     nombre              direccion        telefono  ...  lon  lat marcar
+34   IBAGUÉ  Carrera 5 No. 32-21\n  (608)2760180\n  ...  0.0  0.0     NO
+35   MELGAR  Carrera 27 No. 6-38\n  (608)2760180\n  ...  0.0  0.0     NO
+36  ESPINAL    Calle 11 No. 4-86\n  (608)2760180\n  ...  0.0  0.0     NO
+
+[3 rows x 10 columns]"
+4,SANTANDER,"             nombre  ... marcar
+37      BUCARAMANGA  ...     NO
+38  BARRANCABERMEJA  ...     NO
+39    FLORIDABLANCA  ...     NO
+40          SAN GIL  ...     NO
+
+[4 rows x 10 columns]"
+5,META,"           nombre                       direccion  ...        lat marcar
+41  VILLAVICENCIO          Carrera 42 No. 34-60\n  ...   4.073583     NO
+42        ACACIAS               Cl. 14 #33 – 77\n  ...  32.467069     NO
+43        GRANADA  Carrera 16 No. 44-42, Centro\n  ...   4.268294     NO
+44   PUERTO LOPEZ                  Calle 9#7-11\n  ... -34.849955     NO
+45  PUERTO GAITÁN                 Calle 8#10-22\n  ...  31.326878     NO
+
+[5 rows x 10 columns]"
+6,ATLÁNTICO,"                              nombre           direccion  ...        lat marcar
+46          BARRANQUILLA – PRINCIPAL    CARRERA 50 N 84   ...  10.983102     NO
+47        BARRANQUILLA – COMFAMILIAR  CALLE 47, Nº 43-57  ...  10.933906     NO
+48  BARRANQUILLA -SOLEDAD CC NUESTRO  CALLE 63, Nº 13-61  ...  10.961017     NO
+
+[3 rows x 10 columns]"
+7,MAGDALENA,"         nombre                 direccion  ...       lat marcar
+49  SANTA MARTA  Carrera 8 No. 28b – 48\n  ...  9.898673     NO
+
+[1 rows x 10 columns]"
+8,BOLÍVAR,"       nombre  ... marcar
+50  CARTAGENA  ...     NO
+
+[1 rows x 10 columns]"
+9,CESAR,"             nombre                               direccion  ...       lat marcar
+51       VALLEDUPAR      Calle 17 No. 12-76 Barrio Gaitán\n  ...  7.999627     NO
+52  AGUSTÍN CODAZZI  Calle 13 No. 11-32 barrio Santa Rita\n  ...  9.961034     NO
+
+[2 rows x 10 columns]"
+10,VALLE DEL CAUCA,"   nombre                direccion        telefono  ...       lon        lat marcar
+53   CALI  Cali: Cra. 44 # 6B-35\n  (602)3691570\n  ...  2.720041  49.305867     NO
+
+[1 rows x 10 columns]"
+11,NARIÑO,"   nombre                                          direccion  ...        lat marcar
+54  PASTO  Pasto: Carrera 34 # 19-76. Edificio punto 34 A...  ...  47.671158     NO
+
+[1 rows x 10 columns]"
+12,QUINDÍO,"     nombre          direccion        telefono  ...        lon        lat marcar
+55  ARMENIA  Calle 9 # 14-31\n  (606)7320390\n  ... -55.292245 -34.849955     NO
+
+[1 rows x 10 columns]"
+13,CALDAS,"       nombre                  direccion  ...        lat marcar
+56  LA DORADA  Calle 11 # 2-02 Esquina\n  ...  37.203389     NO
+57  MANIZALES         Calle 65 #23B-65\n  ... -27.405135     NO
+
+[2 rows x 10 columns]"
+14,HUILA,"   nombre           direccion        telefono  ...       lon        lat marcar
+58  NEIVA  Cra. 12 #7 A- 38\n  (608)8680480\n  ...  1.391477  47.221242     NO
+
+[1 rows x 10 columns]"
+15,RISARALDA,"     nombre                                    direccion  ...  lat marcar
+59  PEREIRA  Carrera 14 No 12-15 Los Alpes Plaza Nueva\n  ...  0.0     NO
+
+[1 rows x 10 columns]"

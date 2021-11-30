@@ -1,0 +1,1406 @@
+{
+  "geocoding": {
+    "version": "0.2",
+    "attribution": "https://openrouteservice.org/terms-of-service/#attribution-geocode",
+    "query": {
+      "text": "Calle 78 No. 13A – 07",
+      "size": 10,
+      "private": false,
+      "boundary.country": [
+        "COL"
+      ],
+      "boundary.gid": "421186687",
+      "lang": {
+        "name": "English",
+        "iso6391": "en",
+        "iso6393": "eng",
+        "via": "default",
+        "defaulted": true
+      },
+      "querySize": 20,
+      "parser": "libpostal",
+      "parsed_text": {
+        "street": "calle 78",
+        "housenumber": "no. 13a 07"
+      }
+    },
+    "engine": {
+      "name": "Pelias",
+      "author": "Mapzen",
+      "version": "1.0"
+    },
+    "timestamp": 1638198445922
+  },
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.05975,
+          4.665195
+        ]
+      },
+      "properties": {
+        "id": "polyline:21753089",
+        "gid": "openstreetmap:street:polyline:21753089",
+        "layer": "street",
+        "source": "openstreetmap",
+        "source_id": "polyline:21753089",
+        "name": "Calle 78",
+        "street": "Calle 78",
+        "confidence": 0.8,
+        "match_type": "fallback",
+        "accuracy": "centroid",
+        "country": "Colombia",
+        "country_gid": "whosonfirst:country:85632519",
+        "country_a": "COL",
+        "region": "Bogota D.C.",
+        "region_gid": "whosonfirst:region:85670165",
+        "region_a": "DC",
+        "county": "Bogotá, D.C.",
+        "county_gid": "whosonfirst:county:1108700089",
+        "county_a": "SF",
+        "locality": "Bogotá",
+        "locality_gid": "whosonfirst:locality:421186687",
+        "continent": "South America",
+        "continent_gid": "whosonfirst:continent:102191577",
+        "label": "Calle 78, Bogotá, DC, Colombia"
+      },
+      "bbox": [
+        -74.060145,
+        4.664981,
+        -74.059354,
+        4.665409
+      ]
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.05975,
+          4.665195
+        ]
+      },
+      "properties": {
+        "region": "BOGOTA",
+        "gid": "whosonfirst:locality:421186687",
+        "nombre": "OFICINA PRINCIPAL",
+        "direccion": "Calle 78 No. 13A – 07\n",
+        "telefono": "(601) 307 8069\n",
+        "horario": "L-V. 6:30 a.m. a 4:30 p.m.\n",
+        "autorizaciones": "Sí\n",
+        "servicio_al_usuario": "Sí\n",
+        "orientacion_comercial": "Sí\n",
+        "marcar": "SI"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.165481,
+          4.632571
+        ]
+      },
+      "properties": {
+        "region": "BOGOTA",
+        "gid": "whosonfirst:locality:421186687",
+        "nombre": "CENTRO COMERCIAL NUESTRO BOGOTA",
+        "direccion": "Av. Carrera 86 No. 55a-75\n",
+        "telefono": "(601) 307 8069\n",
+        "horario": "L-V. 6:30 a.m. a 8:00 p.m.\n",
+        "autorizaciones": "Sí\n",
+        "servicio_al_usuario": "Sí\n",
+        "orientacion_comercial": "Sí\n",
+        "marcar": "SI"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.054068,
+          4.64353
+        ]
+      },
+      "properties": {
+        "region": "BOGOTA",
+        "gid": "whosonfirst:locality:421186687",
+        "nombre": "CALLE 63",
+        "direccion": "Calle 63 No. 16A – 03\n",
+        "telefono": "(601) 307 8069\n",
+        "horario": "L-V. 6:30 a.m. a 4:30 p.m.\n",
+        "autorizaciones": "Sí\n",
+        "servicio_al_usuario": "Sí\n",
+        "orientacion_comercial": "Sí\n",
+        "marcar": "SI"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.038463,
+          4.725158
+        ]
+      },
+      "properties": {
+        "region": "BOGOTA",
+        "gid": "whosonfirst:locality:421186687",
+        "nombre": "SUBA ACUARELA",
+        "direccion": "Calle 145 No. 92 – 30 CC Acuarela Local 201\n",
+        "telefono": "(601) 307 8069\n",
+        "horario": "L-V. 6:30 a.m. a 4:30 p.m.\n",
+        "autorizaciones": "Sí\n",
+        "servicio_al_usuario": "Sí\n",
+        "orientacion_comercial": "Sí\n",
+        "marcar": "SI"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.054146,
+          4.702497
+        ]
+      },
+      "properties": {
+        "region": "BOGOTA",
+        "gid": "whosonfirst:locality:421186687",
+        "nombre": "SEDE NORTE",
+        "direccion": "Autopista Norte No. 161A – 12\n",
+        "telefono": "(601) 307 8069\n",
+        "horario": "L-V. 6:30 a.m. a 4:30 p.m.\n",
+        "autorizaciones": "Sí\n",
+        "servicio_al_usuario": "Sí\n",
+        "orientacion_comercial": "Sí\n",
+        "marcar": "SI"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.138155,
+          4.536385
+        ]
+      },
+      "properties": {
+        "region": "BOGOTA",
+        "gid": "whosonfirst:locality:421186687",
+        "nombre": "CALLE 50",
+        "direccion": "Carrera 16 No. 50 – 59\n",
+        "telefono": "(601) 307 8069\n",
+        "horario": "L-V. 6:30 a.m. a 4:30 p.m.\n",
+        "autorizaciones": "Sí\n",
+        "servicio_al_usuario": "Sí\n",
+        "orientacion_comercial": "Sí\n",
+        "marcar": "SI"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.105961,
+          4.650024
+        ]
+      },
+      "properties": {
+        "region": "BOGOTA",
+        "gid": "whosonfirst:locality:421186687",
+        "nombre": "AVENIDA 68",
+        "direccion": "Avenida 68 No. 13 – 91\n",
+        "telefono": "(601) 307 8069\n",
+        "horario": "L-V. 6:30 a.m. a 4:30 p.m.\n",
+        "autorizaciones": "Sí\n",
+        "servicio_al_usuario": "Sí\n",
+        "orientacion_comercial": "Sí\n",
+        "marcar": "SI"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.068231,
+          4.631147
+        ]
+      },
+      "properties": {
+        "region": "BOGOTA",
+        "gid": "whosonfirst:locality:421186687",
+        "nombre": "SAN ANTONIO",
+        "direccion": "Avenida Caracas No. 3 – 65 Sur\n",
+        "telefono": "(601) 307 8069\n",
+        "horario": "L-V. 6:30 a.m. a 4:30 p.m.\n",
+        "autorizaciones": "Sí\n",
+        "servicio_al_usuario": "Sí\n",
+        "orientacion_comercial": "Sí\n",
+        "marcar": "SI"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.160106,
+          4.620336
+        ]
+      },
+      "properties": {
+        "region": "BOGOTA",
+        "gid": "whosonfirst:locality:421186687",
+        "nombre": "KENEDDY",
+        "direccion": "Carrera 79 No. 38 C- 47 Sur\n",
+        "telefono": "(601) 307 8069\n",
+        "horario": "L -V. 6:30 a.m. a 4:30 p.m.\n",
+        "autorizaciones": "Sí\n",
+        "servicio_al_usuario": "Sí\n",
+        "orientacion_comercial": "Sí\n",
+        "marcar": "SI"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.048212,
+          4.660565
+        ]
+      },
+      "properties": {
+        "region": "BOGOTA",
+        "gid": "whosonfirst:locality:421186687",
+        "nombre": "SOACHA",
+        "direccion": "Carrera 4 No. 31 – 40 C.C. Gran Plaza Soacha. Local 209 y 210\n",
+        "telefono": "(601) 307 8069\n",
+        "horario": "L-V. 6:30 a.m. a 4:30 p.m.\n",
+        "autorizaciones": "\n",
+        "servicio_al_usuario": "Sí\n",
+        "orientacion_comercial": "Sí\n",
+        "marcar": "SI"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.073613,
+          4.65091
+        ]
+      },
+      "properties": {
+        "region": "BOGOTA",
+        "gid": "whosonfirst:locality:421186687",
+        "nombre": "GRAN ESTACIÓN",
+        "direccion": "AC. 26 No. 62 – 47 Primer piso – Domo\n",
+        "telefono": "(601) 307 8069\n",
+        "horario": "L-V. 9:00 a.m. a 6:00 p.m.\n",
+        "autorizaciones": "Sí\n",
+        "servicio_al_usuario": "Sí\n",
+        "orientacion_comercial": "Sí\n",
+        "marcar": "SI"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.067633,
+          4.619115
+        ]
+      },
+      "properties": {
+        "region": "BOGOTA",
+        "gid": "whosonfirst:locality:421186687",
+        "nombre": "CARRERA 7",
+        "direccion": "Local 2 Centro Comercial 7/AV (Cra 7 No.158-51)\n",
+        "telefono": "(601) 307 8069\n",
+        "horario": "L-V. 6:30 a.m. a 4:30 p.m.\n",
+        "autorizaciones": "Sí\n",
+        "servicio_al_usuario": "Sí\n",
+        "orientacion_comercial": "Sí\n",
+        "marcar": "SI"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.204144,
+          4.593953
+        ]
+      },
+      "properties": {
+        "region": "CUNDINAMARCA",
+        "gid": "whosonfirst:region:85670159",
+        "nombre": "ZIPAQUIRÁ",
+        "direccion": "Transversal 18 No. 7D – 81\n",
+        "telefono": "\n",
+        "horario": "L-V. 7:30 a.m. a 4:30 p.m.\n",
+        "autorizaciones": "Sí\n",
+        "servicio_al_usuario": "Sí\n",
+        "orientacion_comercial": "Sí\n",
+        "marcar": "SI"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.001425,
+          5.025696
+        ]
+      },
+      "properties": {
+        "region": "CUNDINAMARCA",
+        "gid": "whosonfirst:region:85670159",
+        "nombre": "CHÍA",
+        "direccion": "Carrera 9 No. 10 – 74\n",
+        "telefono": "(601) 3078069\n",
+        "horario": "L-V. 7:30 a.m. a 4:30 p.m.\n",
+        "autorizaciones": "Sí\n",
+        "servicio_al_usuario": "Sí\n",
+        "orientacion_comercial": "Sí\n",
+        "marcar": "SI"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.835111,
+          4.934844
+        ]
+      },
+      "properties": {
+        "region": "CUNDINAMARCA",
+        "gid": "whosonfirst:region:85670159",
+        "nombre": "UBATÉ",
+        "direccion": "Carrera 7 No. 7-75\n",
+        "telefono": "(601) 3078069\n",
+        "horario": "L-V. 7:30 a.m. a 4:30 p.m.\n",
+        "autorizaciones": "Sí\n",
+        "servicio_al_usuario": "Sí\n",
+        "orientacion_comercial": "Sí\n",
+        "marcar": "SI"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.22529,
+          4.588813
+        ]
+      },
+      "properties": {
+        "region": "CUNDINAMARCA",
+        "gid": "whosonfirst:region:85670159",
+        "nombre": "PACHO",
+        "direccion": " Calle 9 No. 22 – 64 Barrio la Palmita\n",
+        "telefono": "(601) 3078069\n",
+        "horario": "L-V. 7:30 a.m. a 4:30 p.m.\n",
+        "autorizaciones": "Sí\n",
+        "servicio_al_usuario": "Sí\n",
+        "orientacion_comercial": "Sí\n",
+        "marcar": "SI"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.366866,
+          4.81964
+        ]
+      },
+      "properties": {
+        "region": "CUNDINAMARCA",
+        "gid": "whosonfirst:region:85670159",
+        "nombre": "FACATATIVÁ",
+        "direccion": "Carrera 2 No. 3-66 Esquina\n",
+        "telefono": "(601) 3078069\n",
+        "horario": "L-V. 7:30 a.m. a 4:30 p.m.\n",
+        "autorizaciones": "Sí\n",
+        "servicio_al_usuario": "Sí\n",
+        "orientacion_comercial": "Sí\n",
+        "marcar": "SI"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.601975,
+          5.066192
+        ]
+      },
+      "properties": {
+        "region": "CUNDINAMARCA",
+        "gid": "whosonfirst:region:85670159",
+        "nombre": "MADRID",
+        "direccion": "Carrera 10 No. 7-35\n",
+        "telefono": "(601) 3078069\n",
+        "horario": "L-V. 7:30 a.m. a 4:30 p.m.\n",
+        "autorizaciones": "Sí\n",
+        "servicio_al_usuario": "Sí\n",
+        "orientacion_comercial": "Sí\n",
+        "marcar": "SI"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.712019,
+          5.306434
+        ]
+      },
+      "properties": {
+        "region": "CUNDINAMARCA",
+        "gid": "whosonfirst:region:85670159",
+        "nombre": "VILLETA",
+        "direccion": "Carrera 4 No. 5 – 45\n",
+        "telefono": "(601) 3078069\n",
+        "horario": "L-V. 7:00 a.m. a 4:30 p.m.\n",
+        "autorizaciones": "Sí\n",
+        "servicio_al_usuario": "Sí\n",
+        "orientacion_comercial": "Sí\n",
+        "marcar": "SI"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.20973,
+          4.717008
+        ]
+      },
+      "properties": {
+        "region": "CUNDINAMARCA",
+        "gid": "whosonfirst:region:85670159",
+        "nombre": "FUNZA ",
+        "direccion": "Cra 13 # 16-85 – Local 208-209 y 210 CC Mi Centro\n",
+        "telefono": "(601) 3078069\n",
+        "horario": "L-V. 7:30 a.m. a 4:30 p.m.\n",
+        "autorizaciones": "Sí\n",
+        "servicio_al_usuario": "Sí\n",
+        "orientacion_comercial": "Sí\n",
+        "marcar": "SI"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.44773,
+          4.63931
+        ]
+      },
+      "properties": {
+        "region": "CUNDINAMARCA",
+        "gid": "whosonfirst:region:85670159",
+        "nombre": "LA MESA",
+        "direccion": "Diag. 4 # 5-150, local 16 – Centro Comercial Parque Tequendama\n",
+        "telefono": "(601) 3078069\n",
+        "horario": "L-V. 7:30 a.m. a 4:30 p.m.\n",
+        "autorizaciones": "Sí\n",
+        "servicio_al_usuario": "Sí\n",
+        "orientacion_comercial": "Sí\n",
+        "marcar": "SI"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.80407,
+          4.29839
+        ]
+      },
+      "properties": {
+        "region": "CUNDINAMARCA",
+        "gid": "whosonfirst:region:85670159",
+        "nombre": "GIRARDOT",
+        "direccion": "Calle 20 No. 8A – 20\n",
+        "telefono": "(601) 3078069\n",
+        "horario": "L-V. 7:30 a.m. a 4:30 p.m.\n",
+        "autorizaciones": "Sí\n",
+        "servicio_al_usuario": "Sí\n",
+        "orientacion_comercial": "Sí\n",
+        "marcar": "SI"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.37701,
+          4.33701
+        ]
+      },
+      "properties": {
+        "region": "CUNDINAMARCA",
+        "gid": "whosonfirst:region:85670159",
+        "nombre": "FUSAGASUGÁ",
+        "direccion": "Calle 8 No. 25 – 24 Centro Comercial Avenida Local 201\n",
+        "telefono": "(601) 3078069\n",
+        "horario": "L-V. 7:30 a.m. a 8:00 p.m.\n",
+        "autorizaciones": "Sí\n",
+        "servicio_al_usuario": "Sí\n",
+        "orientacion_comercial": "Sí\n",
+        "marcar": "SI"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.26762,
+          4.85225
+        ]
+      },
+      "properties": {
+        "region": "CUNDINAMARCA",
+        "gid": "whosonfirst:region:85670159",
+        "nombre": "EL ROSAL",
+        "direccion": "Avenida Carrera 6 No. 11a – 75\n",
+        "telefono": "(601) 3078069\n",
+        "horario": "L-V. 7:30 a.m. a 4:30 p.m.\n",
+        "autorizaciones": "Sí\n",
+        "servicio_al_usuario": "Sí\n",
+        "orientacion_comercial": "Sí\n",
+        "marcar": "SI"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36162,
+          5.53702
+        ]
+      },
+      "properties": {
+        "region": "BOYACÁ",
+        "gid": "whosonfirst:locality:421187343",
+        "nombre": "TUNJA",
+        "direccion": "Avenida Universitaria #39-77\n",
+        "telefono": "(608)7460460\n",
+        "horario": "L-V. 7:30 a.m. a 4:30 p.m.\n",
+        "autorizaciones": "Sí\n",
+        "servicio_al_usuario": "Sí\n",
+        "orientacion_comercial": "Sí\n",
+        "marcar": "SI"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.36254,
+          5.07119
+        ]
+      },
+      "properties": {
+        "region": "BOYACÁ",
+        "gid": "whosonfirst:locality:421187343",
+        "nombre": "GARAGOA",
+        "direccion": "Transversal 8 No. 7-06\n",
+        "telefono": "(608)7460460\n",
+        "horario": "L-V. 7:30 a.m. a 1:00 p.m.\n",
+        "autorizaciones": "Sí\n",
+        "servicio_al_usuario": "Sí\n",
+        "orientacion_comercial": "Sí\n",
+        "marcar": "SI"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "region": "BOYACÁ",
+        "gid": "whosonfirst:locality:421187343",
+        "nombre": "DUITAMA",
+        "direccion": "Carrera 16 No. 18-31\n",
+        "telefono": "(608)7460460\n",
+        "horario": "L-V. 7:30 a.m. a 4:30 p.m.\n",
+        "autorizaciones": "Sí\n",
+        "servicio_al_usuario": "Sí\n",
+        "orientacion_comercial": "Sí\n",
+        "marcar": "NO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "region": "BOYACÁ",
+        "gid": "whosonfirst:locality:421187343",
+        "nombre": "PAIPA",
+        "direccion": "Carrera 21 N° 22-00 / 04 (Barrio Centro)\n",
+        "telefono": "(608)7460460\n",
+        "horario": "L-V. 7:30 a.m. a 4:30 p.m.\n",
+        "autorizaciones": "Sí\n",
+        "servicio_al_usuario": "Sí\n",
+        "orientacion_comercial": "Sí\n",
+        "marcar": "NO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.81479,
+          5.61651
+        ]
+      },
+      "properties": {
+        "region": "BOYACÁ",
+        "gid": "whosonfirst:locality:421187343",
+        "nombre": "CHIQUINQUIRÁ",
+        "direccion": "Calle 16 #10-94\n",
+        "telefono": "(608)7460460\n",
+        "horario": "L-V. 7:30 a.m. a 4:30 p.m.\n",
+        "autorizaciones": "Sí\n",
+        "servicio_al_usuario": "Sí\n",
+        "orientacion_comercial": "Sí\n",
+        "marcar": "NO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "region": "BOYACÁ",
+        "gid": "whosonfirst:locality:421187343",
+        "nombre": "SOGAMOSO",
+        "direccion": "Carrera 11 No. 24-23\n",
+        "telefono": "(608)7460460\n",
+        "horario": "L-V. 7:30 a.m. a 4:30 p.m.\n",
+        "autorizaciones": "Sí\n",
+        "servicio_al_usuario": "Sí\n",
+        "orientacion_comercial": "Sí\n",
+        "marcar": "NO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "region": "BOYACÁ",
+        "gid": "whosonfirst:locality:421187343",
+        "nombre": "PUERTO BOYACÁ",
+        "direccion": "Carrera 4 No. 17-31\n",
+        "telefono": "(608)7460460\n",
+        "horario": "L-V. 7:30 a.m. a 4:30 p.m.\n",
+        "autorizaciones": "Sí\n",
+        "servicio_al_usuario": "Sí\n",
+        "orientacion_comercial": "Sí\n",
+        "marcar": "NO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "region": "BOYACÁ",
+        "gid": "whosonfirst:locality:421187343",
+        "nombre": "MONIQUIRÁ",
+        "direccion": "Carrera 4 No. 19 – 71\n",
+        "telefono": "(608)7460460\n",
+        "horario": "L-V. 7:30 a.m. a 1:00 p.m.\n",
+        "autorizaciones": "Sí\n",
+        "servicio_al_usuario": "Sí\n",
+        "orientacion_comercial": "Sí\n",
+        "marcar": "NO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "region": "BOYACÁ",
+        "gid": "whosonfirst:locality:421187343",
+        "nombre": "SAMACÁ",
+        "direccion": "Calle 4. No. 4 -80/84\n",
+        "telefono": "(608)7460460\n",
+        "horario": "L-V. 7:30 a.m. a 1:00 p.m.\n",
+        "autorizaciones": "Sí\n",
+        "servicio_al_usuario": "Sí\n",
+        "orientacion_comercial": "Sí\n",
+        "marcar": "NO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "region": "BOYACÁ",
+        "gid": "whosonfirst:locality:421187343",
+        "nombre": "VILLA DE LEYVA",
+        "direccion": "Villa de Leyva\n",
+        "telefono": "(608)7460460\n",
+        "horario": "L-V. 7:30 a.m. a 1:00 p.m.\n",
+        "autorizaciones": "Sí\n",
+        "servicio_al_usuario": "Sí\n",
+        "orientacion_comercial": "Sí\n",
+        "marcar": "NO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      },
+      "properties": {
+        "region": "TOLIMA",
+        "gid": "whosonfirst:locality:1225905537",
+        "nombre": "IBAGUÉ",
+        "direccion": "Carrera 5 No. 32-21\n",
+        "telefono": "(608)2760180\n",
+        "horario": "L-V. 7:30 a.m. a 4:30 p.m.\n",
+        "autorizaciones": "Sí\n",
+        "servicio_al_usuario": "Sí\n",
+        "orientacion_comercial": "Sí\n",
+        "marcar": "NO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.64395,
+          4.20358
+        ]
+      },
+      "properties": {
+        "region": "TOLIMA",
+        "gid": "whosonfirst:locality:1225905537",
+        "nombre": "MELGAR",
+        "direccion": "Carrera 27 No. 6-38\n",
+        "telefono": "(608)2760180\n",
+        "horario": "L-V. 7:30 a.m. a 4:30 p.m.\n",
+        "autorizaciones": "Sí\n",
+        "servicio_al_usuario": "Sí\n",
+        "orientacion_comercial": "Sí\n",
+        "marcar": "NO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.88376,
+          4.14914
+        ]
+      },
+      "properties": {
+        "region": "TOLIMA",
+        "gid": "whosonfirst:locality:1225905537",
+        "nombre": "ESPINAL",
+        "direccion": "Calle 11 No. 4-86\n",
+        "telefono": "(608)2760180\n",
+        "horario": "L-V. 7:30 a.m. a 4:30 p.m.\n",
+        "autorizaciones": "Sí\n",
+        "servicio_al_usuario": "Sí\n",
+        "orientacion_comercial": "Sí\n",
+        "marcar": "NO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.112923,
+          7.127131
+        ]
+      },
+      "properties": {
+        "region": "SANTANDER",
+        "gid": "whosonfirst:region:85670141",
+        "nombre": "BUCARAMANGA",
+        "direccion": "Sede principal: Carrera 33 No. 52b – 26\n",
+        "telefono": "(607)6911140\n",
+        "horario": "L-V. 7:30 a.m. a 4:30 p.m.\n",
+        "autorizaciones": "Sí\n",
+        "servicio_al_usuario": "Sí\n",
+        "orientacion_comercial": "Sí\n",
+        "marcar": "NO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.866726,
+          7.058868
+        ]
+      },
+      "properties": {
+        "region": "SANTANDER",
+        "gid": "whosonfirst:region:85670141",
+        "nombre": "BARRANCABERMEJA",
+        "direccion": "Calle 49 No. 14-75\n",
+        "telefono": "(607)6911140\n",
+        "horario": "L-V. 7:30 a.m. a 4:30 p.m.\n",
+        "autorizaciones": "Sí\n",
+        "servicio_al_usuario": "Sí\n",
+        "orientacion_comercial": "Sí\n",
+        "marcar": "NO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.847779,
+          7.044468
+        ]
+      },
+      "properties": {
+        "region": "SANTANDER",
+        "gid": "whosonfirst:region:85670141",
+        "nombre": "FLORIDABLANCA",
+        "direccion": "Calle 31 No. 26 A 19 Centro Comercial La Florida Local 306 Barrio Cañaveral\n",
+        "telefono": "(607)6911140\n",
+        "horario": "L-V. 7:30 a.m. a 8:00 p.m.\n",
+        "autorizaciones": "Sí\n",
+        "servicio_al_usuario": "Sí\n",
+        "orientacion_comercial": "Sí\n",
+        "marcar": "NO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.1378,
+          6.55340
+        ]
+      },
+      "properties": {
+        "region": "SANTANDER",
+        "gid": "whosonfirst:region:85670141",
+        "nombre": "SAN GIL",
+        "direccion": "Calle 10. No. 12 – 184 C.C. El Puente, Loc 182B Y 183\n",
+        "telefono": "(607)6911140\n",
+        "horario": "L-V. 7:30 a.m. a 4:30 p.m.\n",
+        "autorizaciones": "Sí\n",
+        "servicio_al_usuario": "Sí\n",
+        "orientacion_comercial": "Sí\n",
+        "marcar": "NO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.64301,
+          4.14475
+        ]
+      },
+      "properties": {
+        "region": "META",
+        "gid": "whosonfirst:region:85670255",
+        "nombre": "VILLAVICENCIO",
+        "direccion": "Carrera 42 No. 34-60\n",
+        "telefono": "(608)6819330\n",
+        "horario": "L-V. 07:00 a.m. a 4:00 p.m.\n",
+        "autorizaciones": "Sí\n",
+        "servicio_al_usuario": "Sí\n",
+        "orientacion_comercial": "Sí\n",
+        "marcar": "NO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.63895,
+          4.14656
+        ]
+      },
+      "properties": {
+        "region": "META",
+        "gid": "whosonfirst:region:85670255",
+        "nombre": "ACACIAS",
+        "direccion": "Cl. 14 #33 – 77\n",
+        "telefono": "(608)6819330\n",
+        "horario": "L-V. 07:00 a.m. a 12:00 p.m.\n",
+        "autorizaciones": "Sí\n",
+        "servicio_al_usuario": "Sí\n",
+        "orientacion_comercial": "Sí\n",
+        "marcar": "NO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.71276,
+          3.55556
+        ]
+      },
+      "properties": {
+        "region": "META",
+        "gid": "whosonfirst:region:85670255",
+        "nombre": "GRANADA",
+        "direccion": "Carrera 16 No. 44-42, Centro\n",
+        "telefono": "(608)6819330\n",
+        "horario": "L-V. 07:00 a.m. a 12:00 p.m.\n",
+        "autorizaciones": "Sí\n",
+        "servicio_al_usuario": "Sí\n",
+        "orientacion_comercial": "Sí\n",
+        "marcar": "NO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.95921,
+          4.08808
+        ]
+      },
+      "properties": {
+        "region": "META",
+        "gid": "whosonfirst:region:85670255",
+        "nombre": "PUERTO LOPEZ",
+        "direccion": "Calle 9#7-11\n",
+        "telefono": "(608)6819330\n",
+        "horario": "L-V. 07:00 a.m. a 12:00 p.m.\n",
+        "autorizaciones": "Sí\n",
+        "servicio_al_usuario": "Sí\n",
+        "orientacion_comercial": "Sí\n",
+        "marcar": "NO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -72.08302,
+          4.31410
+        ]
+      },
+      "properties": {
+        "region": "META",
+        "gid": "whosonfirst:region:85670255",
+        "nombre": "PUERTO GAITÁN",
+        "direccion": "Calle 8#10-22\n",
+        "telefono": "(608)6819330\n",
+        "horario": "L-V. 07:00 a.m. a 12:00 p.m.\n",
+        "autorizaciones": "Sí\n",
+        "servicio_al_usuario": "Sí\n",
+        "orientacion_comercial": "Sí\n",
+        "marcar": "NO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.81886,
+          11.00501
+        ]
+      },
+      "properties": {
+        "region": "ATLÁNTICO",
+        "gid": "whosonfirst:locality:890445001",
+        "nombre": "BARRANQUILLA – PRINCIPAL",
+        "direccion": "CARRERA 50 N 84 ",
+        "telefono": "(605) 31619850",
+        "horario": "L-V. 07:30 a.m. a 16:30 p.m.\n",
+        "autorizaciones": "Sí\n",
+        "servicio_al_usuario": "Sí\n",
+        "orientacion_comercial": "Sí\n",
+        "marcar": "NO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.78709,
+          10.98471
+        ]
+      },
+      "properties": {
+        "region": "ATLÁNTICO",
+        "gid": "whosonfirst:locality:890445001",
+        "nombre": "BARRANQUILLA – COMFAMILIAR",
+        "direccion": "CALLE 47, Nº 43-57",
+        "telefono": "(605) 31619851",
+        "horario": "L-V. 07:30 a.m. a 16:30 p.m.\n",
+        "autorizaciones": "Sí\n",
+        "servicio_al_usuario": "Sí\n",
+        "orientacion_comercial": "Sí\n",
+        "marcar": "NO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.807862,
+          10.961017
+        ]
+      },
+      "properties": {
+        "region": "ATLÁNTICO",
+        "gid": "whosonfirst:locality:890445001",
+        "nombre": "BARRANQUILLA -SOLEDAD CC NUESTRO",
+        "direccion": "CALLE 63, Nº 13-61",
+        "telefono": "(605) 31619852",
+        "horario": "L-V. 07:30 a.m. a 16:30 p.m.\n",
+        "autorizaciones": "Sí\n",
+        "servicio_al_usuario": "Sí\n",
+        "orientacion_comercial": "Sí\n",
+        "marcar": "NO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.20541,
+          11.23372
+        ]
+      },
+      "properties": {
+        "region": "MAGDALENA",
+        "gid": "whosonfirst:region:85670223",
+        "nombre": "SANTA MARTA",
+        "direccion": "Carrera 8 No. 28b – 48\n",
+        "telefono": "(605) 6429370\n",
+        "horario": "L-V. 7:30 a.m. a 4:00 p.m.\n",
+        "autorizaciones": "Sí\n",
+        "servicio_al_usuario": "Sí\n",
+        "orientacion_comercial": "Sí\n",
+        "marcar": "NO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.54738,
+          10.42031
+        ]
+      },
+      "properties": {
+        "region": "BOLÍVAR",
+        "gid": "whosonfirst:locality:1192971355",
+        "nombre": "CARTAGENA",
+        "direccion": "Sede Getsemaní: Centro AV. del Arsenal CL 25 # 9A – 06 Lc 03\n",
+        "telefono": "(605)6429370\n",
+        "horario": "L-V. 7:30 a.m. a 4:30 p.m.\n",
+        "autorizaciones": "Sí\n",
+        "servicio_al_usuario": "Sí\n",
+        "orientacion_comercial": "Sí\n",
+        "marcar": "NO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.24989,
+          10.47649
+        ]
+      },
+      "properties": {
+        "region": "CESAR",
+        "gid": "whosonfirst:region:85670213",
+        "nombre": "VALLEDUPAR",
+        "direccion": "Calle 17 No. 12-76 Barrio Gaitán\n",
+        "telefono": "(605) 3161985\n",
+        "horario": "L-V. 7:30 a.m. a 4:30 p.m.\n",
+        "autorizaciones": "Sí\n",
+        "servicio_al_usuario": "Sí\n",
+        "orientacion_comercial": "Sí\n",
+        "marcar": "NO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -73.24993,
+          10.47648
+        ]
+      },
+      "properties": {
+        "region": "CESAR",
+        "gid": "whosonfirst:region:85670213",
+        "nombre": "AGUSTÍN CODAZZI",
+        "direccion": "Calle 13 No. 11-32 barrio Santa Rita\n",
+        "telefono": "(605) 3161985\n",
+        "horario": "L-V. 7:30 a.m. a 5:00 p.m.\n",
+        "autorizaciones": "Sí\n",
+        "servicio_al_usuario": "Sí\n",
+        "orientacion_comercial": "Sí\n",
+        "marcar": "NO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -76.54146,
+          3.42384
+        ]
+      },
+      "properties": {
+        "region": "VALLE DEL CAUCA",
+        "gid": "whosonfirst:region:85670203",
+        "nombre": "CALI",
+        "direccion": "Cali: Cra. 44 # 6B-35\n",
+        "telefono": "(602)3691570\n",
+        "horario": "L-V. 7:30 a.m. a 4:30 p.m.\n",
+        "autorizaciones": "Sí\n",
+        "servicio_al_usuario": "Sí\n",
+        "orientacion_comercial": "Sí\n",
+        "marcar": "NO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -77.28210,
+          1.22478
+        ]
+      },
+      "properties": {
+        "region": "NARIÑO",
+        "gid": "whosonfirst:locality:1309970739",
+        "nombre": "PASTO",
+        "direccion": "Pasto: Carrera 34 # 19-76. Edificio punto 34 Av. Local 101 – Los Estudiantes\n",
+        "telefono": "(602)7380130\n",
+        "horario": "L-V. 7:30 a.m. a 4:30 p.m.\n",
+        "autorizaciones": "Sí\n",
+        "servicio_al_usuario": "Sí\n",
+        "orientacion_comercial": "Sí\n",
+        "marcar": "NO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.43746,
+          4.53861
+        ]
+      },
+      "properties": {
+        "region": "QUINDÍO",
+        "gid": "whosonfirst:region:85670169",
+        "nombre": "ARMENIA",
+        "direccion": "Calle 9 # 14-31\n",
+        "telefono": "(606)7320390\n",
+        "horario": "L-V. 7:30 a.m. a 1:00 p.m.\n",
+        "autorizaciones": "Sí\n",
+        "servicio_al_usuario": "Sí\n",
+        "orientacion_comercial": "Sí\n",
+        "marcar": "NO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -74.66829,
+          5.47400
+          
+        ]
+      },
+      "properties": {
+        "region": "CALDAS",
+        "gid": "whosonfirst:region:85670155",
+        "nombre": "LA DORADA",
+        "direccion": "Calle 11 # 2-02 Esquina\n",
+        "telefono": "(606) 8950030\n",
+        "horario": "L-V. 7:30 a.m. a 4:30 p.m.\n",
+        "autorizaciones": "Sí\n",
+        "servicio_al_usuario": "Sí\n",
+        "orientacion_comercial": "Sí\n",
+        "marcar": "NO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.48739,
+          5.0554
+        ]
+      },
+      "properties": {
+        "region": "CALDAS",
+        "gid": "whosonfirst:region:85670155",
+        "nombre": "MANIZALES",
+        "direccion": "Calle 65 #23B-65\n",
+        "telefono": "(606)8950030\n",
+        "horario": "L-V. 7:30 a.m. a 4:30 p.m.\n",
+        "autorizaciones": "Sí\n",
+        "servicio_al_usuario": "Sí\n",
+        "orientacion_comercial": "Sí\n",
+        "marcar": "NO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.28248,
+          2.92961
+        ]
+      },
+      "properties": {
+        "region": "HUILA",
+        "gid": "whosonfirst:region:85670189",
+        "nombre": "NEIVA",
+        "direccion": "Cra. 12 #7 A- 38\n",
+        "telefono": "(608)8680480\n",
+        "horario": "L-V. 7:30 a.m. a 4:30 p.m.\n",
+        "autorizaciones": "Sí\n",
+        "servicio_al_usuario": "Sí\n",
+        "orientacion_comercial": "Sí\n",
+        "marcar": "NO"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -75.79581,
+          4.80858
+        ]
+      },
+      "properties": {
+        "region": "RISARALDA",
+        "gid": "whosonfirst:locality:421204345",
+        "nombre": "PEREIRA",
+        "direccion": "Carrera 14 No 12-15 Los Alpes Plaza Nueva\n",
+        "telefono": "(606)3470160\n",
+        "horario": "L-V. 7:30 a.m. a 4:30 p.m.\n",
+        "autorizaciones": "Sí\n",
+        "servicio_al_usuario": "Sí\n",
+        "orientacion_comercial": "Sí\n",
+        "marcar": "NO"
+      }
+    }
+  ],
+  "bbox": [
+    -74.060145,
+    4.664981,
+    -74.059354,
+    4.665409
+  ]
+}

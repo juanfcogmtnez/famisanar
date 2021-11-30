@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<title>Globesalud Maps</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link  rel="icon" href="{{ url_for('static', filename= 'img/favicon.png') }}" type="image/png" />
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==" crossorigin=""/>
+<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js" integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==" crossorigin=""></script>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-EW0Y5M9ZR8"></script>
+
+</head>
+<style>
+
+#map { min-width: 70vw ;
+	 height: 98vh; }
+.info { padding: 6px 8px;
+		font: 14px/16px;
+		background: MintCream;
+		box-shadow: 0 0 15px rgba(0,0,0,0.2);
+		border-radius: 5px;
+		color:Midnightblue; }
+.info h4 { margin: 0 0 5px;
+			color: #777; }
+.legend { 	text-align: left;
+			line-height: 18px;
+			background: MintCream;
+			color: #555; }
+.legend i { width: 18px;
+			height: 18px;
+			float: left;
+			margin-right: 8px;
+			opacity: 0.7; }
+			
+.wrapper {
+  display: flex;  
+  flex-flow: row wrap;
+  font-weight: bold;
+  text-align: center; 
+}
+
+.wrapper > * {
+  
+  flex: 1 100%;
+}
+
+.header {
+text-align: left;
+
+}
+
+.footer {
+
+}
+
+.main {
+  text-align: left;
+}
+
+.aside-1 {
+  background: gold;
+}
+
+.aside-2 {
+	color:DarkSlateGrey;
+}
+
+@media all and (min-width: 600px) {
+  .aside { flex: 1 0 0; }
+}
+
+@media all and (min-width: 800px) {
+  .main    { flex: 3 0px; }
+  .aside-1 { order: 1; } 
+  .main    { order: 2; }
+  .aside-2 { order: 3; }
+  .footer  { order: 4; }
+}
+
+body {
+  padding: 0.5em; 
+}
+a {
+	font:Arial rounded;
+	cursor: pointer
+}
+td {
+	font-color:Darkgrey
+}
+nav {
+	
+	
+}
+.nav-link{
+	text-color:DarkGoldenRod;
+}
+.btn-group.special {
+  display: flex;
+}
+
+.special .btn {
+  flex: 1
+}
+.leaflet-popup-content-wrapper, .leaflet-popup-tip {
+	background:white;
+	opacity:0.9
+}
+.info{
+	background:MintCream;
+    font-family: monospace;
+    color: Gray;
+    opacity:0.9
+}
+.info h4{
+	color:Midnightblue;
+}
+.info h5{
+
+color:Gray;
+	font-family: monospace;
+	text-decoration:none;
+}
+#popuptable td{
+	font-family: monospace;
+}
+</style>
+<body>
+<div class="wrapper">
+  <article class="main">
+	  <div id='map'></div>
+ </article>
+<aside class="aside aside-2">
+     <table class="table-responsive-sm">
+    <thead>
+<tr> <td colspan=2><img src="{{ url_for('static', filename= 'img/famisanar.jpg') }}" class="img-fluid"  alt="logo_simalga" style="max-width:100%"></td></tr>
+	<tr>
+<td colspan=2 style="text-align:left">
+<form>
+<select id="zona" class="custom-select text-info"  onchange="show()">
+    <option value="CO">COLOMBIA</option>
+    <option value="BOGOTA">BOGOTA</option>
+    <option value="CUNDINAMARCA">CUNDINAMARCA</option>
+    <option value="BOYACÁ">BOYACÁ</option>
+    <option value="TOLIMA">TOLIMA</option>
+    <option value="SANTANDER">SANTANDER</option>
+    <option value="META">META</option>
+    <option value="ATLÁNTICO">ATLÁNTICO</option>
+    <option value="MAGDALENA">MAGDALENA</option>
+    <option value="BOLÍVAR">BOLÍVAR</option>
+    <option value="CESAR">CESAR</option>
+    <option value="VALLE DEL CAUCA">VALLE DEL CAUCA</option>
+    <option value="NARIÑO">NARIÑO</option>
+    <option value="QUINDÍO">QUINDÍO</option>
+    <option value="CALDAS">CALDAS</option>
+    <option value="HUILA">HUILA</option>
+    <option value="RISARALDA">RISARALDA</option>
+  </select>
+    <hr>
+
+</form>
+</td>
+</tr>
+    </thead>
+    	<div id="loader">
+ <tbody id="contenido">
+			 <tr>
+
+
+ </tr>
+ <tr><td colspan=2><br></td></tr>
+      <tr>
+        <th style="color:#17a2b8" id="nombre" colspan=2></th>
+      </tr>
+		<tr><td colspan=2><br></td></tr>
+      <tr>
+		<td style="color:#17a2b8"  colspan=2 id="p_gen_uno"></td>
+      </tr>
+      <tr><td colspan=2><br></td></tr>
+      <tr>
+		<td style="color:#17a2b8"  colspan=2 id="p_gen_dos"></td>
+      </tr>
+      <tr><td colspan=2><br></td></tr>
+      <tr>
+		  <td style="color:#17a2b8"  colspan=2 id="p_gen_tres"></td>
+      </tr>
+      <tr><td colspan=2><br></td></tr>
+    </tbody>
+  </table>
+  </div>
+  </div>
+  <div id="datos" style="display:none"></div>
+</aside>
+  <footer class="footer"><p style="color:Darkblue" >
+	  <p><small><center>© 2021 Globesalud - Todos los derechos reservados</small></center></p>
+	  </footer>
+</div>
+<script>
+var map = L.map('map').setView([4.05, -72.98], 6);
+L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
+    attribution: 'Globesalud & SImalga internacional &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+    maxZoom: 18,
+    id: 'mapbox/streets-v11',
+    tileSize: 512,
+    zoomOffset: -1,
+    accessToken: 'pk.eyJ1IjoianVhbmZjb2dtdG5leiIsImEiOiJja255OWtnc2MwM2NrMm9xbjU5aGU5YWtvIn0.gIaZ6A1nNJGqZTdvlgdG5w'
+}).addTo(map);
+var clinicasfamisanar = L.layerGroup().addTo(map);
+
+
+		
+		function show(){
+			var miSelect = document.getElementById("zona").value;
+			console.log(miSelect);
+        $.getJSON("static/json/test.json", function(data){
+			console.log(data);
+		function onEachFeature_h(feature, layer) {
+  layer.bindPopup('<b>'+feature.properties.nombre+'</b>').on('click', function(e,feature) {
+	  console.log(e.target.feature.properties);
+    $('#nombre').html('<b>'+e.target.feature.properties.nombre+'</b>');
+    $('#p_gen_uno').html('<b>'+e.target.feature.properties.direccion+'</b>');
+    $('#p_gen_dos').html('<b>'+e.target.feature.properties.telefono+'</b>');
+    $('#p_gen_tres').html('<b>'+e.target.feature.properties.horario+'</b>');
+});
+}
+		var show_hospital = L.geoJSON(data, {
+  pointToLayer: function (feature, latlng) {
+            return L.marker(latlng);
+    },
+    filter:function(feature,layer){
+		if(miSelect!='CO')
+		return(feature.properties.region==miSelect)
+		else
+		return true;
+	},
+  onEachFeature: onEachFeature_h
+});
+clinicasfamisanar.clearLayers();
+clinicasfamisanar.addLayer(show_hospital);
+
+show_hospital.addTo(map).on('click', function(e,feature) {
+
+});
+}).fail(function(){
+            console.log("An error has occurred.");
+        });
+}
+		L.Control.Watermark = L.Control.extend({
+		onAdd: function(map) {
+			var img = L.DomUtil.create('img');
+			
+			img.src = "{{ url_for('static', filename= 'img/globesalud.png') }}";
+			img.style.width = '200px';
+			
+			return img;
+		},
+		
+		onRemove: function(map) {
+			// Nothing to do here
+		}
+	});
+
+	L.control.watermark = function(opts) {
+		return new L.Control.Watermark(opts);
+	}
+	
+	L.control.watermark({ position: 'bottomleft' }).addTo(map);
+show();
+    </script> 
+</body>
+</html>

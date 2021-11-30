@@ -1,0 +1,415 @@
+region,gid,nombre,direccion,telefono,horario,autorizaciones,servicio_al_usuario,orientacion_comercial,lon,lat,marcar
+BOGOTA,whosonfirst:locality:421186687,OFICINA PRINCIPAL,"Calle 78 No. 13A – 07
+","(601) 307 8069
+","L-V. 6:30 a.m. a 4:30 p.m.
+","Sí
+","Sí
+","Sí
+",-74.05975,4.665195,SI
+BOGOTA,whosonfirst:locality:421186687,CENTRO COMERCIAL NUESTRO BOGOTA,"Av. Carrera 86 No. 55a-75
+","(601) 307 8069
+","L-V. 6:30 a.m. a 8:00 p.m.
+","Sí
+","Sí
+","Sí
+",-74.165481,4.632571,SI
+BOGOTA,whosonfirst:locality:421186687,CALLE 63,"Calle 63 No. 16A – 03
+","(601) 307 8069
+","L-V. 6:30 a.m. a 4:30 p.m.
+","Sí
+","Sí
+","Sí
+",-74.054068,4.64353,SI
+BOGOTA,whosonfirst:locality:421186687,SUBA ACUARELA,"Calle 145 No. 92 – 30 CC Acuarela Local 201
+","(601) 307 8069
+","L-V. 6:30 a.m. a 4:30 p.m.
+","Sí
+","Sí
+","Sí
+",-74.038463,4.725158,SI
+BOGOTA,whosonfirst:locality:421186687,SEDE NORTE,"Autopista Norte No. 161A – 12
+","(601) 307 8069
+","L-V. 6:30 a.m. a 4:30 p.m.
+","Sí
+","Sí
+","Sí
+",-74.054146,4.702497,SI
+BOGOTA,whosonfirst:locality:421186687,CALLE 50,"Carrera 16 No. 50 – 59
+","(601) 307 8069
+","L-V. 6:30 a.m. a 4:30 p.m.
+","Sí
+","Sí
+","Sí
+",-74.138155,4.536385,SI
+BOGOTA,whosonfirst:locality:421186687,AVENIDA 68,"Avenida 68 No. 13 – 91
+","(601) 307 8069
+","L-V. 6:30 a.m. a 4:30 p.m.
+","Sí
+","Sí
+","Sí
+",-74.105961,4.650024,SI
+BOGOTA,whosonfirst:locality:421186687,SAN ANTONIO,"Avenida Caracas No. 3 – 65 Sur
+","(601) 307 8069
+","L-V. 6:30 a.m. a 4:30 p.m.
+","Sí
+","Sí
+","Sí
+",-74.068231,4.631147,SI
+BOGOTA,whosonfirst:locality:421186687,KENEDDY,"Carrera 79 No. 38 C- 47 Sur
+","(601) 307 8069
+","L -V. 6:30 a.m. a 4:30 p.m.
+","Sí
+","Sí
+","Sí
+",-74.160106,4.620336,SI
+BOGOTA,whosonfirst:locality:421186687,SOACHA,"Carrera 4 No. 31 – 40 C.C. Gran Plaza Soacha. Local 209 y 210
+","(601) 307 8069
+","L-V. 6:30 a.m. a 4:30 p.m.
+","
+","Sí
+","Sí
+",-74.048212,4.660565,SI
+BOGOTA,whosonfirst:locality:421186687,GRAN ESTACIÓN,"AC. 26 No. 62 – 47 Primer piso – Domo
+","(601) 307 8069
+","L-V. 9:00 a.m. a 6:00 p.m.
+","Sí
+","Sí
+","Sí
+",-74.073613,4.65091,SI
+BOGOTA,whosonfirst:locality:421186687,CARRERA 7,"Local 2 Centro Comercial 7/AV (Cra 7 No.158-51)
+","(601) 307 8069
+","L-V. 6:30 a.m. a 4:30 p.m.
+","Sí
+","Sí
+","Sí
+",-74.067633,4.619115,SI
+CUNDINAMARCA,whosonfirst:region:85670159,ZIPAQUIRÁ,"Transversal 18 No. 7D – 81
+","
+","L-V. 7:30 a.m. a 4:30 p.m.
+","Sí
+","Sí
+","Sí
+",-74.204144,4.593953,SI
+CUNDINAMARCA,whosonfirst:region:85670159,CHÍA,"Carrera 9 No. 10 – 74
+","(601) 3078069
+","L-V. 7:30 a.m. a 4:30 p.m.
+","Sí
+","Sí
+","Sí
+",-74.001425,5.025696,SI
+CUNDINAMARCA,whosonfirst:region:85670159,UBATÉ,"Carrera 7 No. 7-75
+","(601) 3078069
+","L-V. 7:30 a.m. a 4:30 p.m.
+","Sí
+","Sí
+","Sí
+",-73.835111,4.934844,SI
+CUNDINAMARCA,whosonfirst:region:85670159,PACHO," Calle 9 No. 22 – 64 Barrio la Palmita
+","(601) 3078069
+","L-V. 7:30 a.m. a 4:30 p.m.
+","Sí
+","Sí
+","Sí
+",-74.22529,4.588813,SI
+CUNDINAMARCA,whosonfirst:region:85670159,FACATATIVÁ,"Carrera 2 No. 3-66 Esquina
+","(601) 3078069
+","L-V. 7:30 a.m. a 4:30 p.m.
+","Sí
+","Sí
+","Sí
+",-74.366866,4.81964,SI
+CUNDINAMARCA,whosonfirst:region:85670159,MADRID,"Carrera 10 No. 7-35
+","(601) 3078069
+","L-V. 7:30 a.m. a 4:30 p.m.
+","Sí
+","Sí
+","Sí
+",-74.601975,5.066192,SI
+CUNDINAMARCA,whosonfirst:region:85670159,VILLETA,"Carrera 4 No. 5 – 45
+","(601) 3078069
+","L-V. 7:00 a.m. a 4:30 p.m.
+","Sí
+","Sí
+","Sí
+",-73.712019,5.306434,SI
+CUNDINAMARCA,whosonfirst:region:85670159,FUNZA ,"Cra 13 # 16-85 – Local 208-209 y 210 CC Mi Centro
+","(601) 3078069
+","L-V. 7:30 a.m. a 4:30 p.m.
+","Sí
+","Sí
+","Sí
+",-74.20973,4.717008,SI
+CUNDINAMARCA,whosonfirst:region:85670159,LA MESA,"Diag. 4 # 5-150, local 16 – Centro Comercial Parque Tequendama
+","(601) 3078069
+","L-V. 7:30 a.m. a 4:30 p.m.
+","Sí
+","Sí
+","Sí
+",-74.44773,4.63931,SI
+CUNDINAMARCA,whosonfirst:region:85670159,GIRARDOT,"Calle 20 No. 8A – 20
+","(601) 3078069
+","L-V. 7:30 a.m. a 4:30 p.m.
+","Sí
+","Sí
+","Sí
+",-74.80407,4.29839,SI
+CUNDINAMARCA,whosonfirst:region:85670159,FUSAGASUGÁ,"Calle 8 No. 25 – 24 Centro Comercial Avenida Local 201
+","(601) 3078069
+","L-V. 7:30 a.m. a 8:00 p.m.
+","Sí
+","Sí
+","Sí
+",-74.37701,4.33701,SI
+CUNDINAMARCA,whosonfirst:region:85670159,EL ROSAL,"Avenida Carrera 6 No. 11a – 75
+","(601) 3078069
+","L-V. 7:30 a.m. a 4:30 p.m.
+","Sí
+","Sí
+","Sí
+",-74.26762,4.85225,SI
+BOYACÁ,whosonfirst:locality:421187343,TUNJA,"Avenida Universitaria #39-77
+","(608)7460460
+","L-V. 7:30 a.m. a 4:30 p.m.
+","Sí
+","Sí
+","Sí
+",-76.36161,5.53332,SI
+BOYACÁ,whosonfirst:locality:421187343,GARAGOA,"Transversal 8 No. 7-06
+","(608)7460460
+","L-V. 7:30 a.m. a 1:00 p.m.
+","Sí
+","Sí
+","Sí
+",-73.36254,5.07119,SI
+BOYACÁ,whosonfirst:locality:421187343,DUITAMA,"Carrera 16 No. 18-31
+","(608)7460460
+","L-V. 7:30 a.m. a 4:30 p.m.
+","Sí
+","Sí
+","Sí
+",0,0,NO
+BOYACÁ,whosonfirst:locality:421187343,PAIPA,"Carrera 21 N° 22-00 / 04 (Barrio Centro)
+","(608)7460460
+","L-V. 7:30 a.m. a 4:30 p.m.
+","Sí
+","Sí
+","Sí
+",0,0,NO
+BOYACÁ,whosonfirst:locality:421187343,CHIQUINQUIRÁ,"Calle 16 #10-94
+","(608)7460460
+","L-V. 7:30 a.m. a 4:30 p.m.
+","Sí
+","Sí
+","Sí
+",-58.202773,-34.760742,NO
+BOYACÁ,whosonfirst:locality:421187343,SOGAMOSO,"Carrera 11 No. 24-23
+","(608)7460460
+","L-V. 7:30 a.m. a 4:30 p.m.
+","Sí
+","Sí
+","Sí
+",0,0,NO
+BOYACÁ,whosonfirst:locality:421187343,PUERTO BOYACÁ,"Carrera 4 No. 17-31
+","(608)7460460
+","L-V. 7:30 a.m. a 4:30 p.m.
+","Sí
+","Sí
+","Sí
+",0,0,NO
+BOYACÁ,whosonfirst:locality:421187343,MONIQUIRÁ,"Carrera 4 No. 19 – 71
+","(608)7460460
+","L-V. 7:30 a.m. a 1:00 p.m.
+","Sí
+","Sí
+","Sí
+",0,0,NO
+BOYACÁ,whosonfirst:locality:421187343,SAMACÁ,"Calle 4. No. 4 -80/84
+","(608)7460460
+","L-V. 7:30 a.m. a 1:00 p.m.
+","Sí
+","Sí
+","Sí
+",0,0,NO
+BOYACÁ,whosonfirst:locality:421187343,VILLA DE LEYVA,"Villa de Leyva
+","(608)7460460
+","L-V. 7:30 a.m. a 1:00 p.m.
+","Sí
+","Sí
+","Sí
+",0,0,NO
+TOLIMA,whosonfirst:locality:1225905537,IBAGUÉ,"Carrera 5 No. 32-21
+","(608)2760180
+","L-V. 7:30 a.m. a 4:30 p.m.
+","Sí
+","Sí
+","Sí
+",0,0,NO
+TOLIMA,whosonfirst:locality:1225905537,MELGAR,"Carrera 27 No. 6-38
+","(608)2760180
+","L-V. 7:30 a.m. a 4:30 p.m.
+","Sí
+","Sí
+","Sí
+",0,0,NO
+TOLIMA,whosonfirst:locality:1225905537,ESPINAL,"Calle 11 No. 4-86
+","(608)2760180
+","L-V. 7:30 a.m. a 4:30 p.m.
+","Sí
+","Sí
+","Sí
+",0,0,NO
+SANTANDER,whosonfirst:region:85670141,BUCARAMANGA,"Sede principal: Carrera 33 No. 52b – 26
+","(607)6911140
+","L-V. 7:30 a.m. a 4:30 p.m.
+","Sí
+","Sí
+","Sí
+",-73.112923,7.127131,NO
+SANTANDER,whosonfirst:region:85670141,BARRANCABERMEJA,"Calle 49 No. 14-75
+","(607)6911140
+","L-V. 7:30 a.m. a 4:30 p.m.
+","Sí
+","Sí
+","Sí
+",-73.866726,7.058868,NO
+SANTANDER,whosonfirst:region:85670141,FLORIDABLANCA,"Calle 31 No. 26 A 19 Centro Comercial La Florida Local 306 Barrio Cañaveral
+","(607)6911140
+","L-V. 7:30 a.m. a 8:00 p.m.
+","Sí
+","Sí
+","Sí
+",-73.847779,7.044468,NO
+SANTANDER,whosonfirst:region:85670141,SAN GIL,"Calle 10. No. 12 – 184 C.C. El Puente, Loc 182B Y 183
+","(607)6911140
+","L-V. 7:30 a.m. a 4:30 p.m.
+","Sí
+","Sí
+","Sí
+",0,0,NO
+META,whosonfirst:region:85670255,VILLAVICENCIO,"Carrera 42 No. 34-60
+","(608)6819330
+","L-V. 07:00 a.m. a 4:00 p.m.
+","Sí
+","Sí
+","Sí
+",-73.668443,4.073583,NO
+META,whosonfirst:region:85670255,ACACIAS,"Cl. 14 #33 – 77
+","(608)6819330
+","L-V. 07:00 a.m. a 12:00 p.m.
+","Sí
+","Sí
+","Sí
+",-114.769922,32.467069,NO
+META,whosonfirst:region:85670255,GRANADA,"Carrera 16 No. 44-42, Centro
+","(608)6819330
+","L-V. 07:00 a.m. a 12:00 p.m.
+","Sí
+","Sí
+","Sí
+",-73.483976,4.268294,NO
+META,whosonfirst:region:85670255,PUERTO LOPEZ,"Calle 9#7-11
+","(608)6819330
+","L-V. 07:00 a.m. a 12:00 p.m.
+","Sí
+","Sí
+","Sí
+",-55.292245,-34.849955,NO
+META,whosonfirst:region:85670255,PUERTO GAITÁN,"Calle 8#10-22
+","(608)6819330
+","L-V. 07:00 a.m. a 12:00 p.m.
+","Sí
+","Sí
+","Sí
+",-109.537247,31.326878,NO
+ATLÁNTICO,whosonfirst:locality:890445001,BARRANQUILLA – PRINCIPAL,CARRERA 50 N 84 ,(605) 31619850,"L-V. 07:30 a.m. a 16:30 p.m.
+","Sí
+","Sí
+","Sí
+",-74.83523,10.983102,NO
+ATLÁNTICO,whosonfirst:locality:890445001,BARRANQUILLA – COMFAMILIAR,"CALLE 47, Nº 43-57",(605) 31619851,"L-V. 07:30 a.m. a 16:30 p.m.
+","Sí
+","Sí
+","Sí
+",-74.802497,10.933906,NO
+ATLÁNTICO,whosonfirst:locality:890445001,BARRANQUILLA -SOLEDAD CC NUESTRO,"CALLE 63, Nº 13-61",(605) 31619852,"L-V. 07:30 a.m. a 16:30 p.m.
+","Sí
+","Sí
+","Sí
+",-74.807862,10.961017,NO
+MAGDALENA,whosonfirst:region:85670223,SANTA MARTA,"Carrera 8 No. 28b – 48
+","(605) 6429370
+","L-V. 7:30 a.m. a 4:00 p.m.
+","Sí
+","Sí
+","Sí
+",-74.859093,9.898673,NO
+BOLÍVAR,whosonfirst:locality:1192971355,CARTAGENA,"Sede Getsemaní: Centro AV. del Arsenal CL 25 # 9A – 06 Lc 03
+","(605)6429370
+","L-V. 7:30 a.m. a 4:30 p.m.
+","Sí
+","Sí
+","Sí
+",-75.547028,10.421007,NO
+CESAR,whosonfirst:region:85670213,VALLEDUPAR,"Calle 17 No. 12-76 Barrio Gaitán
+","(605) 3161985
+","L-V. 7:30 a.m. a 4:30 p.m.
+","Sí
+","Sí
+","Sí
+",-73.51443,7.999627,NO
+CESAR,whosonfirst:region:85670213,AGUSTÍN CODAZZI,"Calle 13 No. 11-32 barrio Santa Rita
+","(605) 3161985
+","L-V. 7:30 a.m. a 5:00 p.m.
+","Sí
+","Sí
+","Sí
+",-73.907542,9.961034,NO
+VALLE DEL CAUCA,whosonfirst:region:85670203,CALI,"Cali: Cra. 44 # 6B-35
+","(602)3691570
+","L-V. 7:30 a.m. a 4:30 p.m.
+","Sí
+","Sí
+","Sí
+",2.720041,49.305867,NO
+NARIÑO,whosonfirst:locality:1309970739,PASTO,"Pasto: Carrera 34 # 19-76. Edificio punto 34 Av. Local 101 – Los Estudiantes
+","(602)7380130
+","L-V. 7:30 a.m. a 4:30 p.m.
+","Sí
+","Sí
+","Sí
+",-1.628663,47.671158,NO
+QUINDÍO,whosonfirst:region:85670169,ARMENIA,"Calle 9 # 14-31
+","(606)7320390
+","L-V. 7:30 a.m. a 1:00 p.m.
+","Sí
+","Sí
+","Sí
+",-55.292245,-34.849955,NO
+CALDAS,whosonfirst:region:85670155,LA DORADA,"Calle 11 # 2-02 Esquina
+","(606) 8950030
+","L-V. 7:30 a.m. a 4:30 p.m.
+","Sí
+","Sí
+","Sí
+",-4.017531,37.203389,NO
+CALDAS,whosonfirst:region:85670155,MANIZALES,"Calle 65 #23B-65
+","(606)8950030
+","L-V. 7:30 a.m. a 4:30 p.m.
+","Sí
+","Sí
+","Sí
+",-55.913045,-27.405135,NO
+HUILA,whosonfirst:region:85670189,NEIVA,"Cra. 12 #7 A- 38
+","(608)8680480
+","L-V. 7:30 a.m. a 4:30 p.m.
+","Sí
+","Sí
+","Sí
+",1.391477,47.221242,NO
+RISARALDA,whosonfirst:locality:421204345,PEREIRA,"Carrera 14 No 12-15 Los Alpes Plaza Nueva
+","(606)3470160
+","L-V. 7:30 a.m. a 4:30 p.m.
+","Sí
+","Sí
+","Sí
+",0,0,NO
